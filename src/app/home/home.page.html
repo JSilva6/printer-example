@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <h1 (click)="printTest(htmlString1)">Print string #1</h1>
+    <h1 (click)="printTest(htmlString2)">Print string #2</h1>
+    <h1 (click)="printTest(htmlString3)">Print string #3</h1>
+
+    <p style="text-align: center">
+      Disclaimer: Android 9 and up will have different results from others, since the Google Chrome webview is disabled and it will enable only the default android webview manager
+    </p>
+  </div>
+</ion-content>

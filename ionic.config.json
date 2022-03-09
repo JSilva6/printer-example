@@ -1,0 +1,8 @@
+{
+  "name": "printer-example",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

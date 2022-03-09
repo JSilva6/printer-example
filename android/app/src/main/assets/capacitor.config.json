@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "printer-example",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
